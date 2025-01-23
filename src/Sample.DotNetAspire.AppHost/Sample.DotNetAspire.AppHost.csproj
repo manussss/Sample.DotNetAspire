@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Sample.DotNetAspire.ApiService\Sample.DotNetAspire.ApiService.csproj" />
+    <ProjectReference Include="..\Sample.DotNetAspire.FirstWorker\Sample.DotNetAspire.FirstWorker.csproj" />
   </ItemGroup>
 
   <ItemGroup>

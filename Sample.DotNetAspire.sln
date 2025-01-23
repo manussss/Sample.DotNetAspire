@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35506.116 d17.12
+VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C09741BE-B180-4D7A-A91F-09CDE0717173}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.DotNetAspire.ServiceDefaults", "src\Sample.DotNetAspire.ServiceDefaults\Sample.DotNetAspire.ServiceDefaults.csproj", "{78CAB46D-5E92-4FA8-B095-DD316772FF42}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.DotNetAspire.ApiService", "src\Sample.DotNetAspire.ApiService\Sample.DotNetAspire.ApiService.csproj", "{35D38803-FA48-4A10-A098-0C0C9C04C6F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.DotNetAspire.FirstWorker", "src\Sample.DotNetAspire.FirstWorker\Sample.DotNetAspire.FirstWorker.csproj", "{A2265219-B560-426C-9DA7-91B1BDBCC3E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{35D38803-FA48-4A10-A098-0C0C9C04C6F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35D38803-FA48-4A10-A098-0C0C9C04C6F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35D38803-FA48-4A10-A098-0C0C9C04C6F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2265219-B560-426C-9DA7-91B1BDBCC3E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2265219-B560-426C-9DA7-91B1BDBCC3E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2265219-B560-426C-9DA7-91B1BDBCC3E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2265219-B560-426C-9DA7-91B1BDBCC3E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,5 +43,6 @@ Global
 		{5A24EED6-A133-418E-B9A2-9F3B4B840F27} = {C09741BE-B180-4D7A-A91F-09CDE0717173}
 		{78CAB46D-5E92-4FA8-B095-DD316772FF42} = {C09741BE-B180-4D7A-A91F-09CDE0717173}
 		{35D38803-FA48-4A10-A098-0C0C9C04C6F1} = {C09741BE-B180-4D7A-A91F-09CDE0717173}
+		{A2265219-B560-426C-9DA7-91B1BDBCC3E5} = {C09741BE-B180-4D7A-A91F-09CDE0717173}
 	EndGlobalSection
 EndGlobal
