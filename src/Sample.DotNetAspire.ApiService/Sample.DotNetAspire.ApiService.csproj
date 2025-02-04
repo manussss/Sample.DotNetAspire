@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Sample.DotNetAspire.Infra\Sample.DotNetAspire.Infra.csproj" />
     <ProjectReference Include="..\Sample.DotNetAspire.ServiceDefaults\Sample.DotNetAspire.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\Sample.DotNetAspire.Shared\Sample.DotNetAspire.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>
