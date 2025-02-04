@@ -14,6 +14,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.DotNetAspire.Shared", "src\Sample.DotNetAspire.Shared\Sample.DotNetAspire.Shared.csproj", "{C3735599-96D7-4FBA-8D24-48CFABFBA30C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{8020EE92-F164-4754-A0E3-745246C9D7C8}"
+	ProjectSection(SolutionItems) = preProject
+		docker\docker-compose.yml = docker\docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.DotNetAspire.Infra", "src\Sample.DotNetAspire.Infra\Sample.DotNetAspire.Infra.csproj", "{271D3E8D-20FD-42B8-9485-3A61310AB2E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +42,10 @@ Global
 		{C3735599-96D7-4FBA-8D24-48CFABFBA30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3735599-96D7-4FBA-8D24-48CFABFBA30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3735599-96D7-4FBA-8D24-48CFABFBA30C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{271D3E8D-20FD-42B8-9485-3A61310AB2E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{271D3E8D-20FD-42B8-9485-3A61310AB2E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{271D3E8D-20FD-42B8-9485-3A61310AB2E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{271D3E8D-20FD-42B8-9485-3A61310AB2E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +55,6 @@ Global
 		{78CAB46D-5E92-4FA8-B095-DD316772FF42} = {C09741BE-B180-4D7A-A91F-09CDE0717173}
 		{35D38803-FA48-4A10-A098-0C0C9C04C6F1} = {C09741BE-B180-4D7A-A91F-09CDE0717173}
 		{C3735599-96D7-4FBA-8D24-48CFABFBA30C} = {C09741BE-B180-4D7A-A91F-09CDE0717173}
+		{271D3E8D-20FD-42B8-9485-3A61310AB2E3} = {C09741BE-B180-4D7A-A91F-09CDE0717173}
 	EndGlobalSection
 EndGlobal
