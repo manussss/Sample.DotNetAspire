@@ -6,6 +6,7 @@ using Microsoft.Extensions.Logging;
 using OpenTelemetry;
 using OpenTelemetry.Metrics;
 using OpenTelemetry.Trace;
+using Sample.DotNetAspire.Infra.Repositories;
 
 namespace Microsoft.Extensions.Hosting;
 
@@ -19,6 +20,8 @@ public static class Extensions
         builder.ConfigureOpenTelemetry();
 
         builder.AddDefaultHealthChecks();
+
+        builder.Services.AddTransient<IMessageRepository, MessageRepository>();
 
         builder.Services.AddServiceDiscovery();
 
