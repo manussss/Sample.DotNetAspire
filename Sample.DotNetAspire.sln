@@ -20,6 +20,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{8020EE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.DotNetAspire.Infra", "src\Sample.DotNetAspire.Infra\Sample.DotNetAspire.Infra.csproj", "{271D3E8D-20FD-42B8-9485-3A61310AB2E3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A536C835-35B4-4E98-AC3B-909414CF8EB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.DotNetAspire.IntegrationTests", "tests\Sample.DotNetAspire.IntegrationTests\Sample.DotNetAspire.IntegrationTests.csproj", "{BDF8FFCB-010C-46F6-943B-3190B386DA8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +50,10 @@ Global
 		{271D3E8D-20FD-42B8-9485-3A61310AB2E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{271D3E8D-20FD-42B8-9485-3A61310AB2E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{271D3E8D-20FD-42B8-9485-3A61310AB2E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDF8FFCB-010C-46F6-943B-3190B386DA8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF8FFCB-010C-46F6-943B-3190B386DA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF8FFCB-010C-46F6-943B-3190B386DA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF8FFCB-010C-46F6-943B-3190B386DA8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,5 +64,6 @@ Global
 		{35D38803-FA48-4A10-A098-0C0C9C04C6F1} = {C09741BE-B180-4D7A-A91F-09CDE0717173}
 		{C3735599-96D7-4FBA-8D24-48CFABFBA30C} = {C09741BE-B180-4D7A-A91F-09CDE0717173}
 		{271D3E8D-20FD-42B8-9485-3A61310AB2E3} = {C09741BE-B180-4D7A-A91F-09CDE0717173}
+		{BDF8FFCB-010C-46F6-943B-3190B386DA8B} = {A536C835-35B4-4E98-AC3B-909414CF8EB8}
 	EndGlobalSection
 EndGlobal
