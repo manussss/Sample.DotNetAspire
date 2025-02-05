@@ -8,12 +8,13 @@ public class Message
     public DateTime CreatedAt { get; set; }
     public List<MessageStatus> Status { get; set; }
 
-    public Message(string message)
+    public Message(string payload)
     {
         MessageId = Guid.NewGuid().ToString();
         CorrelationId = Guid.NewGuid().ToString();
-        Payload = message;
+        Payload = payload;
         CreatedAt = DateTime.Now;
+        Status = [new(EStatus.Processing)];
     }
 
     public Message()

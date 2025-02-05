@@ -18,6 +18,9 @@ app.MapPost("/api/v1/message", async (
     [FromServices] IMessageRepository messageRepository
     ) =>
 {
+    if (string.IsNullOrEmpty(message.Payload))
+        return Results.BadRequest($"'{nameof(message.Payload)}' cannot be empty");
+
     await messageRepository.AddAsync(message);
 
     //TODO enviar msg via mensageria
