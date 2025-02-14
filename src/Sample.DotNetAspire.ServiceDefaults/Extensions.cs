@@ -24,6 +24,8 @@ public static class Extensions
 
         builder.AddMongoDBClient("MongoDB");
 
+        builder.AddRedisClient("Redis");
+
         builder.Services.AddTransient<IMessageRepository, MessageRepository>();
 
         builder.Services.AddServiceDiscovery();
